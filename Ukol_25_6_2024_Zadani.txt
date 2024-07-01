@@ -1,0 +1,58 @@
+začátek django:
+zadaní: https://materials.itstep.org/content/f2de015e-1534-423c-8492-327f1e003a12/en/?cache=0
+
+EN:
+Module Frameworks
+Part 2
+
+Task 1
+Using the routing mechanism, create a web app that outputs various sections with information about your city. The app should have the following sections:
+Main;
+City News;
+City Administration;
+City Facts;
+Contact phone numbers of municipal services.
+Different sections must be accessed via different addresses. For instance, if the user enters 127.0.0.1:8000, the Main section should open. If 127.0.0.1:8000/news is entered, the City News section should open. If 127.0.0.1:8000/management, the City Admi­nistration section should open, etc.
+
+Task 2
+Add the ability to handle invalid addresses to the project from Task 1.
+For example, if 127.0.0.1:8000/news/satisfaction or 127.0.0.1:8000/news/angie or 127.0.0.1:8000/news/wildhorses etc. is entered, the content of the News section should be displayed.
+Apply this to other sections as well.
+
+Task 3
+Add the History section to the project from Task 1.
+When entering 127.0.0.1:8000/history, output a section with general information about the city history.
+When entering 127.0.0.1:8000/history/people, output information about famous residents of your city.
+When entering 127.0.0.1:8000/history/photos, output a section with historical photos of your city.
+
+Task 4
+Add a link mechanism to the project from Task 1 that will let you go from section to section.
+
+CZ:
+Modulové rámce
+Část 2
+
+Úkol 1
+Pomocí mechanismu směrování vytvořte webovou aplikaci, která vypíše různé sekce s informacemi o vašem městě. Aplikace by měla obsahovat následující sekce:
+
+Hlavní;
+City News;
+Správa města;
+Fakta o městě;
+Kontaktní telefonní čísla obecních služeb.
+Různé sekce musí být přístupné přes různé adresy. Pokud například uživatel zadá 127.0.0.1:8000, měla by se otevřít sekce Main. Pokud je zadáno 127.0.0.1:8000/news, měla by se otevřít sekce City News. Pokud 127.0.0.1:8000/vedení, měla by se otevřít sekce Správa města atp.
+
+Úkol 2
+Přidejte do projektu možnost zpracovávat neplatné adresy z úkolu 1.
+Pokud je například zadáno 127.0.0.1:8000/news/spokojenost nebo 127.0.0.1:8000/news/angie nebo 127.0.0.1:8000/news/wildhorses atd., měl by se zobrazit obsah sekce Novinky.
+Aplikujte to i na další sekce.
+
+Úkol 3
+Přidejte sekci Historie do projektu z úkolu 1.
+Při zadání 127.0.0.1:8000/history vypíše sekci s obecnými informacemi o historii města.
+Při zadávání 127.0.0.1:8000/history/people vypište informace o slavných obyvatelích vašeho města.
+Při zadávání 127.0.0.1:8000/history/photos vytiskněte sekci s historickými fotografiemi vašeho města.
+
+Úkol 4
+Přidejte do projektu mechanismus propojení z úkolu 1, který vám umožní přecházet ze sekce do sekce.
+
