@@ -24,3 +24,7 @@ urlpatterns = [
     path('mycity/', views.mycity, name='mycity')
 ]
 
+
+
+
+
