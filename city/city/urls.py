@@ -22,7 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('mycity/', views.mycity, name='mycity'),
-    path('facts/', views.facts, name='facts')
+    path('facts/', views.facts, name='facts'),
+    path('history/', views.history, name='history'),
+    path('history/photos/', views.photos, name='history_photos')
 ]
 
 

@@ -40,7 +40,10 @@ City News;
 Správa města;
 Fakta o městě;
 Kontaktní telefonní čísla obecních služeb.
-Různé sekce musí být přístupné přes různé adresy. Pokud například uživatel zadá 127.0.0.1:8000, měla by se otevřít sekce Main. Pokud je zadáno 127.0.0.1:8000/news, měla by se otevřít sekce City News. Pokud 127.0.0.1:8000/vedení, měla by se otevřít sekce Správa města atp.
+Různé sekce musí být přístupné přes různé adresy.
+Pokud například uživatel zadá 127.0.0.1:8000, měla by se otevřít sekce Main.
+Pokud je zadáno 127.0.0.1:8000/news, měla by se otevřít sekce City News.
+Pokud 127.0.0.1:8000/vedení, měla by se otevřít sekce Správa města atp.
 
 Úkol 2
 Přidejte do projektu možnost zpracovávat neplatné adresy z úkolu 1.

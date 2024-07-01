@@ -17,5 +17,11 @@ def facts(request):
     template = loader.get_template('facts.html')
     return HttpResponse(template.render())
 
+def history(request):
+    template = loader.get_template('history.html')
+    return HttpResponse(template.render())
 
+def photos(request):
+    template = loader.get_template('history_photos.html')
+    return HttpResponse(template.render())
 
